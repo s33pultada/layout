@@ -1,22 +1,23 @@
 
+
 *{margin: 0; padding:0;}
 header{
 	width: 100%;
 	height: 20vh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+    align-items:center;
 }
 header .logo{
-	width: 150px;
-}
+        width: 150px;
+    }
 header .logo img{
-	width: 100%;
+       width: 100%;
 }
 header ul{
 	display: flex;
-	height: 20vh;
-	align-items: center;
+    align-items: center;
+    height: 20vh;
 }
 header ul li{
 	list-style: none;
@@ -33,24 +34,42 @@ header ul li a:hover{
 	color: #fff;
 }
 div.content{
-	display: flex;
+    display:flex;
 }
 main{
 	width: 80%;
 	height: 60vh;
-	border: 1px solid black;
+    border:1px solid black;
 }
 main .bloco-principal{
-	width: 100%;
-	background: red;
+    width: 100%;
 }
 main .noticia{
-	width: 80%;
-	background: #ccc;
-	dis´play: flex;
+    width: 80%;
+    display:flex;
+	padding: 30px;
 }
 main .noticia img{
-	width: 200px;
+    width:200px;
+	padding: 10px;
+}
+main .descricao{
+	padding: 10px;
+}
+main .descricao h3{
+	background: blue;
+	color: white;
+	padding: 5px;
+}
+main .descricao p{
+	margin-top: 20px;
+	letter-spacing: 3px;
+	line-height: 25px;
+}
+main .descricao a{
+	background: blue;
+	color: white;
+	padding: 5px 15px;
 }
 aside{
 	width: 20%;
