@@ -1,5 +1,3 @@
-
-
 *{margin: 0; padding:0;}
 header{
 	width: 100%;
@@ -9,10 +7,10 @@ header{
     align-items:center;
 }
 header .logo{
-        width: 150px;
+    width: 150px;
     }
 header .logo img{
-       width: 100%;
+    width: 100%;
 }
 header ul{
 	display: flex;
@@ -69,18 +67,34 @@ main .descricao p{
 }
 main .grid-3{
 	display: flex;
-	justify-content: space-around;
 	height: 300px;
 
 }
 main .grid-3 .coluna{
 	width: 33%;
 	border: 1px solid black;
-	
 }
-main .grid .coluna img{
-	    width:10px;
-	padding: 10px;
+main .grid-3 .coluna img{
+	width:100%;
+}
+main .grid-3 .coluna a{
+    background: blue;
+	color: white;
+	padding: 5px 15px;  
+    font-size: 15px;  
+}
+main .grid-3 .coluna p{
+    margin-top: 20px;
+	letter-spacing: 3px;
+	line-height: 3px;
+	margin:20px;
+}
+main .grid-3 h3{
+	background: blue;
+	color: white;
+	padding: 5px 15px;
+    font-size: 15px;
+
 }
 main .descricao a{
 	background: blue;
