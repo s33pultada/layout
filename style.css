@@ -46,9 +46,7 @@ main .bloco-principal{
 }
 main .grid-3 .coluna h3{
     text-transform: uppercase;
-    text-align: center;
     color:darkblue;
-
 }
 main .noticia{
     width: 80%;
@@ -77,9 +75,26 @@ main .grid-3{
 main .grid-3 .coluna{
 	width: 33%;
     margin: 10px;
+    text-align: center;
 }
 main .grid-3 .coluna img{
 	width: 100%;
+}
+main .grid-3 .coluna p{
+    color: blue;
+    font-size: 18px;
+    margin: 15px;
+}
+main .grid-3 .coluna a{
+    background: blue;
+    color: white;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+main .grid-3 .coluna :hover{
+    background: blue;
 }
 aside{
 	width: 20%;
