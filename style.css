@@ -37,7 +37,6 @@ div.content{
 }
 main{
 	width: 80%;
-    border:1px solid black;
 }
 main .bloco-principal{
     width: 100%;
@@ -97,7 +96,6 @@ main .grid-3 .coluna a:hover{
 }
 aside{
 	width: 20%;
-	height: 60vh;
 }
 aside img{
     width: 100%;
@@ -111,7 +109,33 @@ aside a:hover img{
 }
 footer{
 	width: 100%;
-	height: 20vh;
 	background: black;
-}	
-	
+	display: flex;
+	padding: 20px;
+}
+footer h2{
+	font-size: 26px;
+	color: blue;
+	text-transform: uppercase;
+}
+footer form{
+	border: 1px solid white;
+	display: flex;
+	flex-direction: column;
+}
+footer form input[type='text']{
+	height: 30px;
+	background:white;
+	border: 0;
+	margin-bottom: 5px;
+	width: 100%;
+}
+footer form input[type='submit']{
+	background: blue;
+	color: white;
+	padding: 1px 15px;
+	border: 0;
+}
+footer form input[type='submit']:hover{
+	background: red;
+}
