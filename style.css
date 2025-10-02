@@ -1,5 +1,4 @@
-
-*{margin: 0; padding:0;     font-family: arial;}
+*{margin: 0; padding:0; font-family: arial;}
 header{
 	width: 100%;
 	height: 20vh;
@@ -42,10 +41,6 @@ main .bloco-principal{
     width: 100%;
     padding: 20px;
 }
-main .grid-3 .coluna h3{
-    text-transform: uppercase;
-    color:darkblue;
-}
 main .noticia{
     width: 80%;
     display:flex;
@@ -69,50 +64,59 @@ main .noticia a{
 main .grid-3{
 	display: flex;
 	padding: 15px;
+	text-align: center;
+	flex-wrap: wrap;
 }
 main .grid-3 .coluna{
-	width: 33%;
-    margin: 10px;
-    text-align: center;
+	width: 31%;
+	margin: 10px;
 }
 main .grid-3 .coluna img{
 	width: 100%;
 }
+main .grid-3 .coluna h3{
+	text-transform: uppercase;
+	text-align: center;
+	color: blue;
+}
 main .grid-3 .coluna p{
-    color: blue;
-    font-size: 18px;
-    margin: 15px;
+	text-align: center;
+	color:black;
+	font-size: 18px;
+	margin-bottom: 20px;
 }
 main .grid-3 .coluna a{
-    background: blue;
-    color: white;
-    padding: 5px 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
+	background: red;
+	color: white;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
 }
 main .grid-3 .coluna a:hover{
-    background: blue;
+	background: blue;
 }
+
+
 aside{
 	width: 20%;
 }
 aside img{
-    width: 100%;
-    margin: 7px;    
+	width: 100%;
+	margin: 10px;
 }
 aside a img{
-    transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
 }
 aside a:hover img{
-    transform: scale(1.5);
+	transform:scale(1.5);
 }
 footer{
 	width: 100%;
 	background: black;
 	display: flex;
 	padding: 20px;
-}
+}	
 footer h2{
 	font-size: 26px;
 	color: blue;
@@ -124,8 +128,8 @@ footer form{
 	flex-direction: column;
 }
 footer form input[type='text']{
-	height: 30px;
-	background:white;
+	height: 40px;
+	background: white;
 	border: 0;
 	margin-bottom: 5px;
 	width: 100%;
@@ -133,9 +137,29 @@ footer form input[type='text']{
 footer form input[type='submit']{
 	background: blue;
 	color: white;
-	padding: 1px 15px;
+	padding: 7px 15px;
 	border: 0;
 }
 footer form input[type='submit']:hover{
 	background: red;
 }
+footer .footer-grid{
+	margin: 10px;
+	width: 33%;
+}
+footer p{
+	color: white;
+}
+footer .redes div img{
+    width: 48px;
+    margin: 5px;
+}
+footer .redes div{
+    color:#fff;
+}
+footer .redes div{
+    display: flex;
+    align-items: center;
+}
+
+
