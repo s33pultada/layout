@@ -171,4 +171,11 @@ footer .redes div{
 	    width: 98%;
 }       
 }
-
+@media screen and (max-width: 870px){
+   aside{
+        display: none;
+}
+    main{
+	    width: 100%;
+}
+}
