@@ -115,6 +115,7 @@ footer{
 	width: 100%;
 	background: black;
 	display: flex;
+    flex-direction: column;
 	padding: 20px;
 }	
 footer h2{
@@ -161,6 +162,9 @@ footer .redes div{
     display: flex;
     align-items: center;
 }
+footer .redes{
+    display:flex;
+}
 @media screen and (max-width: 1108px){
     main .grid-3 .coluna{
 	    width: 47%;
@@ -170,12 +174,21 @@ footer .redes div{
     main .grid-3 .coluna{
 	    width: 98%;
 }       
-}
-@media screen and (max-width: 870px){
    aside{
         display: none;
 }
     main{
 	    width: 100%;
+}
+    footer{
+        flex-direction: column;
+        text-align:center;
+}
+    footer .footer-grid{
+        width:93%;
+}
+    footer .redes{
+        display:flex;
+        justify-content: center;
 }
 }
