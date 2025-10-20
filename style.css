@@ -77,11 +77,11 @@ main .grid-3 .coluna img{
 main .grid-3 .coluna h3{
 	text-transform: uppercase;
 	text-align: center;
-	color: blue;
+	color: red;
 }
 main .grid-3 .coluna p{
 	text-align: center;
-	color:black;
+	color:blue;
 	font-size: 18px;
 	margin-bottom: 20px;
 }
@@ -115,12 +115,11 @@ footer{
 	width: 100%;
 	background: black;
 	display: flex;
-    flex-direction: column;
 	padding: 20px;
 }	
 footer h2{
 	font-size: 26px;
-	color: blue;
+	color: yellow;
 	text-transform: uppercase;
 }
 footer form{
@@ -152,43 +151,42 @@ footer p{
 	color: white;
 }
 footer .redes div img{
-    width: 48px;
+    width: 40px;
     margin: 5px;
 }
 footer .redes div{
-    color:#fff;
+    color: #fff;
 }
 footer .redes div{
     display: flex;
     align-items: center;
 }
-footer .redes{
-    display:flex;
-}
 @media screen and (max-width: 1108px){
     main .grid-3 .coluna{
-	    width: 47%;
-}  
+	   width: 47%;
+  }
 }
 @media screen and (max-width: 870px){
     main .grid-3 .coluna{
-	    width: 98%;
-}       
-   aside{
-        display: none;
-}
-    main{
-	    width: 100%;
-}
-    footer{
-        flex-direction: column;
-        text-align:center;
-}
-    footer .footer-grid{
-        width:93%;
-}
-    footer .redes{
-        display:flex;
-        justify-content: center;
+	   width: 98%;
+  }
+    aside{
+       display: none;
+  }
+     main{
+      width: 100%;
+  }
+
+  footer{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .footer-grid{
+    width: 93%;
+  }
+  footer .redes{
+   display: flex;
+   justify-content: center;
 }
 }
