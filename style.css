@@ -177,6 +177,20 @@ footer .redes div{
     width: 800px;
     margin: 0 auto;
 }
+#sobre .galeria{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#sobre .galeria img{
+    width: 300px;
+    margin: 5px;
+}
+.form2 form{
+    border: 1px solid white;
+	display: flex;
+	flex-direction: column;
+}
 
 
 @media screen and (max-width: 1108px){
